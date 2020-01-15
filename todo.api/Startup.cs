@@ -15,9 +15,9 @@ using Microsoft.Extensions.Options;
 using ToDo.Api.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using todo.api.Extensions;
+using ToDo.Api.Extensions;
 
-namespace todo.api
+namespace ToDo.Api
 {
     public class Startup
     {

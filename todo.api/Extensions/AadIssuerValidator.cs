@@ -4,7 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using Microsoft.IdentityModel.Tokens;
 
-namespace todo.api.Extensions
+namespace ToDo.Api.Extensions
 {
     public static class AadIssuerValidator
     {
