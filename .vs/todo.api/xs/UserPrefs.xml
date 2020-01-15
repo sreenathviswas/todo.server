@@ -1,29 +1,31 @@
-﻿<Properties StartupConfiguration="{355AD256-0344-41E6-9B94-6E63DF31D5AF}|todo.api">
+﻿<Properties StartupConfiguration="{5E4312B0-1036-4E1C-B21B-94A8A08AB44E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.ToDo.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="todo.api/Startup.cs">
+  <MonoDevelop.Ide.ItemProperties.ToDo.Api.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api/Properties/launchSettings.json">
     <Files>
-      <File FileName="todo.api/Controllers/ToDoController.cs" Line="78" Column="63" />
-      <File FileName="todo.api/Properties/launchSettings.json" Line="30" Column="2" />
-      <File FileName="todo.api.persistence/Configurations/TodoConfiguration.cs" Line="7" Column="63" />
-      <File FileName="todo.api.persistence/Entity.cs" Line="2" Column="21" />
-      <File FileName="todo.api.persistence/IEntity.cs" Line="3" Column="21" />
-      <File FileName="todo.api.persistence/IRepository.cs" Line="6" Column="21" />
-      <File FileName="todo.api.persistence/Repository.cs" Line="8" Column="21" />
-      <File FileName="todo.api.persistence/ToDo.cs" Line="2" Column="21" />
-      <File FileName="todo.api.persistence/ToDoDbContext.cs" Line="5" Column="21" />
-      <File FileName="todo.api/Startup.cs" Line="15" Column="7" />
+      <File FileName="ToDo.Api.Tests/UnitTest1.cs" Line="21" Column="28" />
+      <File FileName="ToDo.Api/Properties/launchSettings.json" Line="9" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ToDo.Api" expanded="True">
             <Node name="ToDo.Api" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
             </Node>
-            <Node name="ToDo.Api.Persistence" expanded="True">
-              <Node name="Configurations" expanded="True" />
+            <Node name="ToDo.Api.Persistence" expanded="True" />
+            <Node name="ToDo.Api.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
             </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ToDo.Api" expanded="True">
+            <Node name="ToDo.Api.Tests" selected="True" />
           </Node>
         </State>
       </Pad>

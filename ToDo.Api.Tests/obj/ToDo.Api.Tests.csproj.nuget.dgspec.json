@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Tests/ToDo.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj",
+        "projectName": "ToDo.Api.Persistence",
+        "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj",
+        "packagesPath": "/Users/sreenath/.nuget/packages/",
+        "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sreenath/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Tests/ToDo.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Tests/ToDo.Api.Tests.csproj",
+        "projectName": "ToDo.Api.Tests",
+        "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Tests/ToDo.Api.Tests.csproj",
+        "packagesPath": "/Users/sreenath/.nuget/packages/",
+        "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sreenath/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj": {
+                "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Fabrik.Common.WebAPI": {
+              "target": "Package",
+              "version": "[1.0.8-pre, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj",
+        "projectName": "ToDo.Api",
+        "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj",
+        "packagesPath": "/Users/sreenath/.nuget/packages/",
+        "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sreenath/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj": {
+                "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

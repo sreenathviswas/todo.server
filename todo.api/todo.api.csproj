@@ -9,10 +9,11 @@
     <AssemblyName>ToDo.Api</AssemblyName>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'todo.api' ">
-    <StartAction>Project</StartAction>
-    <LaunchUrl>api/todo</LaunchUrl>
-    <ApplicationURL>https://localhost:5001;http://localhost:5000</ApplicationURL>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App">
