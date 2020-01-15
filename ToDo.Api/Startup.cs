@@ -16,6 +16,7 @@ using ToDo.Api.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using ToDo.Api.Extensions;
+using Microsoft.IdentityModel.Logging;
 
 namespace ToDo.Api
 {
@@ -31,7 +32,9 @@ namespace ToDo.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
+            IdentityModelEventSource.ShowPII = true;
+
+            services.AddAuthentication(AzureADDefaults.JwtBearerAuthenticationScheme)
                 .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
 
             services.Configure<JwtBearerOptions>(AzureADDefaults.JwtBearerAuthenticationScheme, options =>
@@ -67,6 +70,14 @@ namespace ToDo.Api
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseCors(builder =>
+            {
+                builder
+                .WithOrigins("https://localhost:5002")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+            });
 
             app.UseHttpsRedirection();
             app.UseAuthentication();
