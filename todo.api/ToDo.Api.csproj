@@ -29,7 +29,7 @@
     <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\todo.api.persistence\todo.api.persistence.csproj">
+    <ProjectReference Include="..\ToDo.Api.Persistence\ToDo.Api.Persistence.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
