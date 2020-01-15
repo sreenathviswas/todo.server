@@ -1,23 +1,18 @@
 ﻿<Properties StartupConfiguration="{5E4312B0-1036-4E1C-B21B-94A8A08AB44E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.ToDo.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.ToDo.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.ToDo.Api.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api.Tests/TestToDoController.cs">
     <Files>
       <File FileName="ToDo.Api.Tests/UnitTest1.cs" Line="21" Column="28" />
-      <File FileName="ToDo.Api/Properties/launchSettings.json" Line="9" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ToDo.Api" expanded="True">
-            <Node name="ToDo.Api" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
-            </Node>
+            <Node name="ToDo.Api" expanded="True" />
             <Node name="ToDo.Api.Persistence" expanded="True" />
             <Node name="ToDo.Api.Tests" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="TestToDoController.cs" selected="True" />
             </Node>
           </Node>
         </State>
