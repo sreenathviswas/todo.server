@@ -1,26 +1,34 @@
-﻿<Properties StartupConfiguration="{355AD256-0344-41E6-9B94-6E63DF31D5AF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="todo.api/Properties/launchSettings.json">
+﻿<Properties StartupConfiguration="{355AD256-0344-41E6-9B94-6E63DF31D5AF}|todo.api">
+  <MonoDevelop.Ide.ItemProperties.ToDo.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="todo.api/Startup.cs">
     <Files>
-      <File FileName="todo.api/Controllers/ToDoController.cs" Line="1" Column="1" />
-      <File FileName="todo.api/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="todo.api/Controllers/ToDoController.cs" Line="78" Column="63" />
+      <File FileName="todo.api/Properties/launchSettings.json" Line="30" Column="2" />
+      <File FileName="todo.api.persistence/Configurations/TodoConfiguration.cs" Line="7" Column="63" />
+      <File FileName="todo.api.persistence/Entity.cs" Line="2" Column="21" />
+      <File FileName="todo.api.persistence/IEntity.cs" Line="3" Column="21" />
+      <File FileName="todo.api.persistence/IRepository.cs" Line="6" Column="21" />
+      <File FileName="todo.api.persistence/Repository.cs" Line="8" Column="21" />
+      <File FileName="todo.api.persistence/ToDo.cs" Line="2" Column="21" />
+      <File FileName="todo.api.persistence/ToDoDbContext.cs" Line="5" Column="21" />
+      <File FileName="todo.api/Startup.cs" Line="15" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="todo.api" expanded="True">
-            <Node name="todo.api" expanded="True">
+          <Node name="ToDo.Api" expanded="True">
+            <Node name="ToDo.Api" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
-            <Node name="todo.api.persistence" expanded="True" />
+            <Node name="ToDo.Api.Persistence" expanded="True">
+              <Node name="Configurations" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.todo.api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

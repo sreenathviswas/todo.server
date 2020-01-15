@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace todo.api.persistence
+namespace ToDo.Api.Persistence
 {
     public interface IEntity
     {

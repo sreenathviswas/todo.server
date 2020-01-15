@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using todo.api.persistence;
+using ToDo.Api.Persistence;
 
-namespace todo.api.Controllers
+namespace ToDo.Api.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
@@ -14,30 +14,30 @@ namespace todo.api.Controllers
     public class ToDoController : ControllerBase
     {
 
-        private readonly IRepository<ToDo> _repository;
+        private readonly IRepository<Persistence.ToDo> _repository;
 
-        public ToDoController(IRepository<ToDo> repository)
+        public ToDoController(IRepository<Persistence.ToDo> repository)
         {
             _repository = repository;
         }
 
         // GET api/values
         [HttpGet]
-        public async Task<IEnumerable<ToDo>> Get()
+        public async Task<IEnumerable<Persistence.ToDo>> Get()
         {
             return await _repository.GetAllAsync();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public async Task<ToDo> Get(int id)
+        public async Task<Persistence.ToDo> Get(int id)
         {
             return await _repository.GetAsync(id);
         }
 
         // POST api/values
         [HttpPost]
-        public async Task<ToDo> Post([FromBody] ToDo todo)
+        public async Task<Persistence.ToDo> Post([FromBody] Persistence.ToDo todo)
         {
             // For more information on protecting this API from Cross Site Request Forgery (CSRF) attacks, see https://go.microsoft.com/fwlink/?LinkID=717803
 
@@ -51,7 +51,7 @@ namespace todo.api.Controllers
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public async Task<ToDo> Put(int id, [FromBody] ToDo todo)
+        public async Task<Persistence.ToDo> Put(int id, [FromBody] Persistence.ToDo todo)
         {
             // For more information on protecting this API from Cross Site Request Forgery (CSRF) attacks, see https://go.microsoft.com/fwlink/?LinkID=717803
 
@@ -75,7 +75,7 @@ namespace todo.api.Controllers
         {
             // For more information on protecting this API from Cross Site Request Forgery (CSRF) attacks, see https://go.microsoft.com/fwlink/?LinkID=717803
 
-            await _repository.RemoveAsync(new ToDo { Id = id });
+            await _repository.RemoveAsync(new Persistence.ToDo { Id = id });
         }
     }
 }

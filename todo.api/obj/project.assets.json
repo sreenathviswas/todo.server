@@ -4456,7 +4456,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "todo.api.persistence/1.0.0": {
+      "ToDo.Api.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
@@ -4464,10 +4464,10 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "compile": {
-          "bin/placeholder/todo.api.persistence.dll": {}
+          "bin/placeholder/ToDo.Api.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/todo.api.persistence.dll": {}
+          "bin/placeholder/ToDo.Api.Persistence.dll": {}
         }
       }
     }
@@ -12148,7 +12148,7 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "todo.api.persistence/1.0.0": {
+    "ToDo.Api.Persistence/1.0.0": {
       "type": "project",
       "path": "../todo.api.persistence/todo.api.persistence.csproj",
       "msbuildProject": "../todo.api.persistence/todo.api.persistence.csproj"
@@ -12161,7 +12161,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 2.2.6",
       "Microsoft.NETCore.App >= 2.2.0",
-      "todo.api.persistence >= 1.0.0"
+      "ToDo.Api.Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12172,7 +12172,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/todo.api.csproj",
-      "projectName": "todo.api",
+      "projectName": "ToDo.Api",
       "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/todo.api.csproj",
       "packagesPath": "/Users/sreenath/.nuget/packages/",
       "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/obj/",

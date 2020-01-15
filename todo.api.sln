@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo.api", "todo.api\todo.api.csproj", "{355AD256-0344-41E6-9B94-6E63DF31D5AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Api", "todo.api\todo.api.csproj", "{355AD256-0344-41E6-9B94-6E63DF31D5AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todo.api.persistence", "todo.api.persistence\todo.api.persistence.csproj", "{A976DBC1-7418-47FC-B507-6B1E8F433FA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Api.Persistence", "todo.api.persistence\todo.api.persistence.csproj", "{A976DBC1-7418-47FC-B507-6B1E8F433FA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,7 +2,7 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 
-namespace todo.api.persistence
+namespace ToDo.Api.Persistence
 {
     public class ToDoDbContext:DbContext
     {

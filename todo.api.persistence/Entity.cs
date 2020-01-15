@@ -1,5 +1,5 @@
 ﻿using System;
-namespace todo.api.persistence
+namespace ToDo.Api.Persistence
 {
     public abstract class Entity : IEntity
     {

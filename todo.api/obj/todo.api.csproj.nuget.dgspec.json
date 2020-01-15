@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/todo.api.persistence.csproj",
-        "projectName": "todo.api.persistence",
+        "projectName": "ToDo.Api.Persistence",
         "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/todo.api.persistence.csproj",
         "packagesPath": "/Users/sreenath/.nuget/packages/",
         "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/obj/",
@@ -72,7 +72,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/todo.api.csproj",
-        "projectName": "todo.api",
+        "projectName": "ToDo.Api",
         "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/todo.api.csproj",
         "packagesPath": "/Users/sreenath/.nuget/packages/",
         "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/obj/",

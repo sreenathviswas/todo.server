@@ -6,13 +6,13 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "todo.api.persistence/1.0.0": {
+      "ToDo.Api.Persistence/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "runtime": {
-          "todo.api.persistence.dll": {}
+          "ToDo.Api.Persistence.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.2.6": {
@@ -372,7 +372,7 @@
     }
   },
   "libraries": {
-    "todo.api.persistence/1.0.0": {
+    "ToDo.Api.Persistence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

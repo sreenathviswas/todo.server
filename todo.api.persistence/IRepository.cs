@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace todo.api.persistence
+namespace ToDo.Api.Persistence
 {
     public interface IRepository<T> : IDisposable
     {

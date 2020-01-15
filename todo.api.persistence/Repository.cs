@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace todo.api.persistence
+namespace ToDo.Api.Persistence
 {
     public class Repository<T> : IRepository<T> where T : class, IEntity
     {

@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using todo.api.persistence;
+using ToDo.Api.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using todo.api.Extensions;
@@ -52,7 +52,7 @@ namespace todo.api
 
             services.AddScoped<DbContext, ToDoDbContext>();
 
-            services.AddScoped<IRepository<ToDo>, Repository<ToDo>>();
+            services.AddScoped<IRepository<ToDo.Api.Persistence.ToDo>, Repository<ToDo.Api.Persistence.ToDo>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

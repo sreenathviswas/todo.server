@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace todo.api.persistence.Configurations
+namespace ToDo.Api.Persistence.Configurations
 {
-    public class TodoConfiguration:IEntityTypeConfiguration<todo.api.persistence.ToDo>
+    public class ToDoConfiguration:IEntityTypeConfiguration<ToDo>
     {
         public void Configure(EntityTypeBuilder<ToDo> builder)
         {
