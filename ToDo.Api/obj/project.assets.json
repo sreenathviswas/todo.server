@@ -12150,8 +12150,8 @@
     },
     "ToDo.Api.Persistence/1.0.0": {
       "type": "project",
-      "path": "../todo.api.persistence/todo.api.persistence.csproj",
-      "msbuildProject": "../todo.api.persistence/todo.api.persistence.csproj"
+      "path": "../ToDo.Api.Persistence/ToDo.Api.Persistence.csproj",
+      "msbuildProject": "../ToDo.Api.Persistence/ToDo.Api.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12171,11 +12171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/todo.api.csproj",
+      "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj",
       "projectName": "ToDo.Api",
-      "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/todo.api.csproj",
+      "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj",
       "packagesPath": "/Users/sreenath/.nuget/packages/",
-      "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api/obj/",
+      "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12192,8 +12192,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/todo.api.persistence.csproj": {
-              "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/todo.api.persistence.csproj"
+            "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj": {
+              "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj"
             }
           }
         }

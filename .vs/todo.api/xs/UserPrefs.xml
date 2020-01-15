@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{5E4312B0-1036-4E1C-B21B-94A8A08AB44E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.ToDo.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.ToDo.Api.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api/Controllers/ToDoController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api/appsettings.json">
     <Files>
-      <File FileName="ToDo.Api/Program.cs" Line="11" Column="17" />
-      <File FileName="ToDo.Api/Startup.cs" Line="18" Column="13" />
-      <File FileName="ToDo.Api/Extensions/AadIssuerValidator.cs" Line="7" Column="17" />
-      <File FileName="ToDo.Api/Controllers/ToDoController.cs" Line="1" Column="1" />
+      <File FileName="ToDo.Api/Program.cs" Line="25" Column="1" />
+      <File FileName="ToDo.Api/Startup.cs" Line="77" Column="1" />
+      <File FileName="ToDo.Api/Extensions/AadIssuerValidator.cs" Line="75" Column="1" />
+      <File FileName="ToDo.Api/Controllers/ToDoController.cs" Line="82" Column="1" />
+      <File FileName="ToDo.Api/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="ToDo.Api/appsettings.json" Line="14" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ToDo.Api" expanded="True">
             <Node name="ToDo.Api" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ToDoController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Extensions" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
