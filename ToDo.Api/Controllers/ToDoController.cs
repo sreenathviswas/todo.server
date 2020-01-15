@@ -63,10 +63,11 @@ namespace ToDo.Api.Controllers
             }
 
             existingTodo.Content = todo.Content;
+            existingTodo.IsCompleted = todo.IsCompleted;
             existingTodo.ModifiedBy = User.Identity.Name;
             existingTodo.ModifiedOn = DateTime.UtcNow;
 
-            return await _repository.SaveAsync(todo);
+            return await _repository.SaveAsync(existingTodo);
         }
 
         // DELETE api/values/5
