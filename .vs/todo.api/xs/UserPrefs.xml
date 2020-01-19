@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{5E4312B0-1036-4E1C-B21B-94A8A08AB44E}|Default">
   <MonoDevelop.Ide.ItemProperties.ToDo.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.ToDo.Api.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api/appsettings.json">
+    <Files>
+      <File FileName="ToDo.Api/appsettings.json" Line="8" Column="39" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ToDo.Api" expanded="True">
             <Node name="ToDo.Api" expanded="True">
               <Node name="Extensions" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="appsettings.json" expanded="True" selected="True" />
             </Node>
             <Node name="ToDo.Api.Tests" expanded="True" />
           </Node>
