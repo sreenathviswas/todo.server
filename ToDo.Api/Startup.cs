@@ -63,8 +63,10 @@ namespace ToDo.Api
 
             app.UseCors(builder =>
             {
+                var corsUrls = Configuration["Cors"].Split(";");
+
                 builder
-                .WithOrigins("https://localhost:5002", "https://todo-client-spa.azurewebsites.net", "https://localhost:5004", "https://todo-mvcclientapp.azurewebsites.net")
+                .WithOrigins(corsUrls)
                 .AllowAnyHeader()
                 .AllowAnyMethod();
             });
