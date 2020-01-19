@@ -4,6 +4,78 @@
     "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/ToDo.Api.csproj": {}
   },
   "projects": {
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj": {
+      "version": "1.0.0-localbuild",
+      "restore": {
+        "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj",
+        "projectName": "Microsoft.Identity.Web",
+        "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj",
+        "packagesPath": "/Users/sreenath/.nuget/packages/",
+        "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/NuGet.Config",
+          "/Users/sreenath/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.AzureADB2C.UI": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -17,16 +89,16 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sreenath/.config/NuGet/NuGet.Config"
+          "/Users/sreenath/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -37,21 +109,15 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.6, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[2.2.6, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -64,6 +130,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
@@ -81,17 +152,20 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sreenath/.config/NuGet/NuGet.Config"
+          "/Users/sreenath/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
             "projectReferences": {
+              "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj": {
+                "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj"
+              },
               "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj": {
                 "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.Api.Persistence.csproj"
               }
@@ -105,17 +179,11 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
             "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.2, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
@@ -124,13 +192,7 @@
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[2.2.6, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -143,6 +205,14 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }

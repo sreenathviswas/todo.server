@@ -17,6 +17,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using ToDo.Api.Extensions;
 using Microsoft.IdentityModel.Logging;
+using Microsoft.Identity.Web;
+using Microsoft.Identity.Web.TokenCacheProviders.InMemory;
 
 namespace ToDo.Api
 {
@@ -34,22 +36,10 @@ namespace ToDo.Api
         {
             IdentityModelEventSource.ShowPII = true;
 
-            services.AddAuthentication(AzureADDefaults.JwtBearerAuthenticationScheme)
-                .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
+            services.AddProtectedWebApi(Configuration)
+                .AddInMemoryTokenCaches();
 
-            services.Configure<JwtBearerOptions>(AzureADDefaults.JwtBearerAuthenticationScheme, options =>
-            {
-                options.Authority += "/v2.0";
-
-                options.TokenValidationParameters.ValidAudiences = new string[]
-                {
-                    options.Audience, $"api://{options.Audience}"
-                };
-
-                options.TokenValidationParameters.IssuerValidator = AadIssuerValidator.ValidateAadIssuer;
-            });
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc(options => options.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddDbContext<ToDoDbContext>(opts => opts.UseInMemoryDatabase("ToDoDB"));
 
@@ -74,7 +64,7 @@ namespace ToDo.Api
             app.UseCors(builder =>
             {
                 builder
-                .WithOrigins("https://localhost:5002")
+                .WithOrigins("https://localhost:5002", "https://todo-client-spa.azurewebsites.net", "https://localhost:5004", "https://todo-mvcclientapp.azurewebsites.net")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
             });

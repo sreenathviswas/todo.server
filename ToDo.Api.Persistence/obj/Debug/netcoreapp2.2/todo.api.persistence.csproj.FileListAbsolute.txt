@@ -1,8 +1,8 @@
-/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/bin/Debug/netcoreapp2.2/ToDo.Api.Persistence.deps.json
-/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/bin/Debug/netcoreapp2.2/ToDo.Api.Persistence.dll
-/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/bin/Debug/netcoreapp2.2/ToDo.Api.Persistence.pdb
-/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/obj/Debug/netcoreapp2.2/todo.api.persistence.AssemblyInfoInputs.cache
-/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/obj/Debug/netcoreapp2.2/todo.api.persistence.AssemblyInfo.cs
-/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/obj/Debug/netcoreapp2.2/ToDo.Api.Persistence.dll
-/Users/sreenath/Projects/ireland/todo/todo.server/todo.api.persistence/obj/Debug/netcoreapp2.2/ToDo.Api.Persistence.pdb
-/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/obj/Debug/netcoreapp2.2/todo.api.persistence.csprojAssemblyReference.cache
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/bin/Debug/netcoreapp2.2/ToDo.Api.Persistence.deps.json
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/bin/Debug/netcoreapp2.2/ToDo.Api.Persistence.dll
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/bin/Debug/netcoreapp2.2/ToDo.Api.Persistence.pdb
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/obj/Debug/netcoreapp2.2/ToDo.Api.Persistence.csprojAssemblyReference.cache
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/obj/Debug/netcoreapp2.2/ToDo.Api.Persistence.AssemblyInfoInputs.cache
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/obj/Debug/netcoreapp2.2/ToDo.Api.Persistence.AssemblyInfo.cs
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/obj/Debug/netcoreapp2.2/ToDo.Api.Persistence.dll
+/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/obj/Debug/netcoreapp2.2/ToDo.Api.Persistence.pdb
