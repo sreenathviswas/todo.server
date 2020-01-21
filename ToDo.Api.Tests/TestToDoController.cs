@@ -4,6 +4,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using ToDo.Api.Controllers;
@@ -16,13 +17,35 @@ namespace ToDo.Api.Tests
     {
         protected Mock<IRepository<Persistence.ToDo>> _mockRepository;
         protected ToDoController _sut;
+        protected ToDoController _sutWithInMemory;
 
         [TestInitialize]
         public void Setup()
         {
             _mockRepository = new Mock<IRepository<Persistence.ToDo>>();
+
+            DbContextOptions<ToDoDbContext> options;
+            var builder = new DbContextOptionsBuilder<ToDoDbContext>();
+            builder.UseInMemoryDatabase("ToDoDb");
+            options = builder.Options;
+            ToDoDbContext dbContext = new ToDoDbContext(options);
+            IRepository<Persistence.ToDo> repository = new Repository<Persistence.ToDo>(dbContext);
+
             _sut = new ToDoController(_mockRepository.Object);
             _sut.ControllerContext = new Microsoft.AspNetCore.Mvc.ControllerContext
+            {
+                HttpContext = new DefaultHttpContext
+                {
+                    User = new ClaimsPrincipal(new ClaimsIdentity(new[]
+                    {
+                        new Claim(ClaimTypes.Name, "Test User"),
+                        new Claim(ClaimTypes.NameIdentifier, "Test.User@test.com")
+                    }))
+                }
+            };
+
+            _sutWithInMemory = new ToDoController(repository);
+            _sutWithInMemory.ControllerContext = new Microsoft.AspNetCore.Mvc.ControllerContext
             {
                 HttpContext = new DefaultHttpContext
                 {
@@ -59,6 +82,15 @@ namespace ToDo.Api.Tests
         }
 
         [TestMethod]
+        public async Task post_saves_todo_to_inmemory_repository()
+        {
+            var todo = new Persistence.ToDo();
+
+            var result = await _sutWithInMemory.Post(todo);
+            result.Should().Be(todo);
+        }
+
+        [TestMethod]
         public async Task put_updates_todo_to_repository()
         {
             var todo = new Persistence.ToDo
@@ -78,6 +110,20 @@ namespace ToDo.Api.Tests
             result.Should().Be(todo);
 
             _mockRepository.Verify();
+        }
+
+        [TestMethod]
+        public async Task put_updates_todo_to_inmemory_repository()
+        {
+            var todo = new Persistence.ToDo
+            {
+                Id = 1,
+                Content = "Updated Content"
+            };
+
+
+            var result = await _sutWithInMemory.Put(1, todo);
+            result.Content.Should().Be("Updated Content");
         }
 
         [TestMethod]
@@ -117,6 +163,13 @@ namespace ToDo.Api.Tests
         }
 
         [TestMethod]
+        public async Task get_returns_all_todo_from_inmemory_repository()
+        {
+            var result = await _sutWithInMemory.Get();
+            result.Should().NotBeEmpty();
+        }
+
+        [TestMethod]
         public async Task get_by_id_returns_corresponding_value()
         {
             var todo = new Persistence.ToDo();
@@ -131,6 +184,21 @@ namespace ToDo.Api.Tests
         }
 
         [TestMethod]
+        public async Task get_by_id_returns_corresponding_value_from_inmemory_repository()
+        {
+            var todo = new Persistence.ToDo
+            {
+                Id= 100,
+                Content = "ToDo 1"
+            };
+
+            await _sutWithInMemory.Post(todo);
+
+            var result = await _sutWithInMemory.Get(100);
+            result.Id.Should().Be(100);
+        }
+
+        [TestMethod]
         public async Task delete_removes_corresponding_todo_from_repository()
         {
             var todo = new Persistence.ToDo();
@@ -140,6 +208,14 @@ namespace ToDo.Api.Tests
             await _sut.Delete(1);
 
             _mockRepository.Verify();
+        }
+
+        [TestMethod]
+        public async Task delete_removes_corresponding_todo_from_inmemory_repository()
+        {
+            var todo = new Persistence.ToDo();
+
+            await _sutWithInMemory.Delete(1);
         }
     }
 }

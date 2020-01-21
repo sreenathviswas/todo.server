@@ -1,0 +1,4283 @@
+{
+  "ToDo.Api.Persistence.dll": {
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/Entity.cs": {
+      "ToDo.Api.Persistence.Entity": {
+        "System.Int32 ToDo.Api.Persistence.Entity::get_Id()": {
+          "Lines": {
+            "6": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/Repository.cs": {
+      "ToDo.Api.Persistence.Repository`1": {
+        "Microsoft.EntityFrameworkCore.DbContext ToDo.Api.Persistence.Repository`1::get_DbContext()": {
+          "Lines": {
+            "13": 25
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<T> ToDo.Api.Persistence.Repository`1::get_Set()": {
+          "Lines": {
+            "22": 9
+          },
+          "Branches": []
+        },
+        "System.Linq.IQueryable`1<T> ToDo.Api.Persistence.Repository`1::get_Queryable()": {
+          "Lines": {
+            "27": 12
+          },
+          "Branches": []
+        },
+        "System.Void ToDo.Api.Persistence.Repository`1::Dispose()": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": []
+        },
+        "System.Void ToDo.Api.Persistence.Repository`1::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "15": 11,
+            "16": 11,
+            "17": 11,
+            "18": 11
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Persistence.Repository`1/<GetAllAsync>d__9": {
+        "System.Void ToDo.Api.Persistence.Repository`1/<GetAllAsync>d__9::MoveNext()": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Persistence.Repository`1/<GetAsync>d__10": {
+        "System.Void ToDo.Api.Persistence.Repository`1/<GetAsync>d__10::MoveNext()": {
+          "Lines": {
+            "36": 3,
+            "37": 3,
+            "38": 3
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Persistence.Repository`1/<>c__DisplayClass11_0": {
+        "System.Boolean ToDo.Api.Persistence.Repository`1/<>c__DisplayClass11_0::<SaveAsync>b__0(Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry)": {
+          "Lines": {
+            "42": 4
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 42,
+              "Offset": 91,
+              "EndOffset": 123,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "ToDo.Api.Persistence.Repository`1/<FindAsync>d__12": {
+        "System.Void ToDo.Api.Persistence.Repository`1/<FindAsync>d__12::MoveNext()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Persistence.Repository`1/<RemoveAsync>d__13": {
+        "System.Void ToDo.Api.Persistence.Repository`1/<RemoveAsync>d__13::MoveNext()": {
+          "Lines": {
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 14,
+              "EndOffset": 272,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDo.cs": {
+      "ToDo.Api.Persistence.ToDo": {
+        "System.String ToDo.Api.Persistence.ToDo::get_Content()": {
+          "Lines": {
+            "6": 9
+          },
+          "Branches": []
+        },
+        "System.Boolean ToDo.Api.Persistence.ToDo::get_IsCompleted()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "System.String ToDo.Api.Persistence.ToDo::get_CreatedBy()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime ToDo.Api.Persistence.ToDo::get_CreatedOn()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String ToDo.Api.Persistence.ToDo::get_ModifiedBy()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime ToDo.Api.Persistence.ToDo::get_ModifiedOn()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/ToDoDbContext.cs": {
+      "ToDo.Api.Persistence.ToDoDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<ToDo.Api.Persistence.ToDo> ToDo.Api.Persistence.ToDoDbContext::get_Todo()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void ToDo.Api.Persistence.ToDoDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1
+          },
+          "Branches": []
+        },
+        "System.Void ToDo.Api.Persistence.ToDoDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "10": 11,
+            "11": 11,
+            "12": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Persistence/Configurations/TodoConfiguration.cs": {
+      "ToDo.Api.Persistence.Configurations.ToDoConfiguration": {
+        "System.Void ToDo.Api.Persistence.Configurations.ToDoConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<ToDo.Api.Persistence.ToDo>)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "20": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ToDo.Api.dll": {
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/Program.cs": {
+      "ToDo.Api.Program": {
+        "System.Void ToDo.Api.Program::Main(System.String[])": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder ToDo.Api.Program::CreateWebHostBuilder(System.String[])": {
+          "Lines": {
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/Startup.cs": {
+      "ToDo.Api.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration ToDo.Api.Startup::get_Configuration()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void ToDo.Api.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "44": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 40,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 84,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 84,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void ToDo.Api.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": [
+            {
+              "Line": 54,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void ToDo.Api.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/Extensions/AadIssuerValidator.cs": {
+      "ToDo.Api.Extensions.AadIssuerValidator": {
+        "System.String ToDo.Api.Extensions.AadIssuerValidator::ValidateAadIssuer(System.String,Microsoft.IdentityModel.Tokens.SecurityToken,Microsoft.IdentityModel.Tokens.TokenValidationParameters)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "54": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 22,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 49,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 80,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 80,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 104,
+              "EndOffset": 118,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 139,
+              "EndOffset": 141,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 139,
+              "EndOffset": 168,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 185,
+              "EndOffset": 187,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 185,
+              "EndOffset": 209,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 217,
+              "EndOffset": 219,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 217,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 266,
+              "EndOffset": 268,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 266,
+              "EndOffset": 291,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 321,
+              "EndOffset": 323,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 321,
+              "EndOffset": 335,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String ToDo.Api.Extensions.AadIssuerValidator::TenantedIssuer(System.String,System.String)": {
+          "Lines": {
+            "70": 0,
+            "71": 0,
+            "72": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api/Controllers/ToDoController.cs": {
+      "ToDo.Api.Controllers.ToDoController": {
+        "System.Void ToDo.Api.Controllers.ToDoController::.ctor(ToDo.Api.Persistence.IRepository`1<ToDo.Api.Persistence.ToDo>)": {
+          "Lines": {
+            "19": 22,
+            "20": 22,
+            "21": 22,
+            "22": 22
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Controllers.ToDoController/<Get>d__2": {
+        "System.Void ToDo.Api.Controllers.ToDoController/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "27": 2,
+            "28": 2,
+            "29": 2
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Controllers.ToDoController/<Get>d__3": {
+        "System.Void ToDo.Api.Controllers.ToDoController/<Get>d__3::MoveNext()": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 2
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Controllers.ToDoController/<Post>d__4": {
+        "System.Void ToDo.Api.Controllers.ToDoController/<Post>d__4::MoveNext()": {
+          "Lines": {
+            "41": 3,
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3,
+            "49": 3,
+            "50": 3
+          },
+          "Branches": []
+        }
+      },
+      "ToDo.Api.Controllers.ToDoController/<Put>d__5": {
+        "System.Void ToDo.Api.Controllers.ToDoController/<Put>d__5::MoveNext()": {
+          "Lines": {
+            "55": 3,
+            "58": 3,
+            "60": 3,
+            "61": 1,
+            "62": 1,
+            "65": 2,
+            "66": 2,
+            "67": 2,
+            "68": 2,
+            "70": 2,
+            "71": 2
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 60,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 175,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 55,
+              "Offset": 14,
+              "EndOffset": 355,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ToDo.Api.Controllers.ToDoController/<Delete>d__6": {
+        "System.Void ToDo.Api.Controllers.ToDoController/<Delete>d__6::MoveNext()": {
+          "Lines": {
+            "76": 2,
+            "79": 2,
+            "80": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Microsoft.Identity.Web.dll": {
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/AccountExtensions.cs": {
+      "Microsoft.Identity.Web.AccountExtensions": {
+        "System.Security.Claims.ClaimsPrincipal Microsoft.Identity.Web.AccountExtensions::ToClaimsPrincipal(Microsoft.Identity.Client.IAccount)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 96,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/AuthorizeForScopesAttribute.cs": {
+      "Microsoft.Identity.Web.AuthorizeForScopesAttribute": {
+        "System.String[] Microsoft.Identity.Web.AuthorizeForScopesAttribute::get_Scopes()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.String Microsoft.Identity.Web.AuthorizeForScopesAttribute::get_ScopeKeySection()": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.AuthorizeForScopesAttribute::OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 29,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 19,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 53,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 68,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 93,
+              "EndOffset": 95,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 85,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 93,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 112,
+              "EndOffset": 114,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 112,
+              "EndOffset": 126,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 144,
+              "EndOffset": 146,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 174,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 144,
+              "EndOffset": 218,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 68,
+              "EndOffset": 254,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 53,
+              "EndOffset": 255,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Microsoft.Identity.Web.AuthorizeForScopesAttribute::CanBeSolvedByReSignInUser(Microsoft.Identity.Client.MsalUiRequiredException)": {
+          "Lines": {
+            "89": 0,
+            "96": 0,
+            "97": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Authentication.AuthenticationProperties Microsoft.Identity.Web.AuthorizeForScopesAttribute::BuildAuthenticationPropertiesForIncrementalConsent(System.String[],Microsoft.Identity.Client.MsalUiRequiredException,Microsoft.AspNetCore.Http.HttpContext)": {
+          "Lines": {
+            "108": 0,
+            "109": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "134": 0
+          },
+          "Branches": [
+            {
+              "Line": 119,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 85,
+              "EndOffset": 129,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 147,
+              "EndOffset": 174,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/ClaimsPrincipalExtensions.cs": {
+      "Microsoft.Identity.Web.ClaimsPrincipalExtensions": {
+        "System.String Microsoft.Identity.Web.ClaimsPrincipalExtensions::GetMsalAccountId(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 21,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 37,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Microsoft.Identity.Web.ClaimsPrincipalExtensions::GetObjectId(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 21,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Microsoft.Identity.Web.ClaimsPrincipalExtensions::GetTenantId(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 21,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Microsoft.Identity.Web.ClaimsPrincipalExtensions::GetLoginHint(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "72": 0,
+            "73": 0,
+            "74": 0
+          },
+          "Branches": []
+        },
+        "System.String Microsoft.Identity.Web.ClaimsPrincipalExtensions::GetDomainHint(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "82": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 28,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 14,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Microsoft.Identity.Web.ClaimsPrincipalExtensions::GetDisplayName(System.Security.Claims.ClaimsPrincipal)": {
+          "Lines": {
+            "102": 0,
+            "104": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0
+          },
+          "Branches": [
+            {
+              "Line": 107,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 21,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 113,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 113,
+              "Offset": 45,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/ClaimsPrincipalFactory.cs": {
+      "Microsoft.Identity.Web.ClaimsPrincipalFactory": {
+        "System.Security.Claims.ClaimsPrincipal Microsoft.Identity.Web.ClaimsPrincipalFactory::FromTenantIdAndObjectId(System.String,System.String)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Extensions.cs": {
+      "Microsoft.Identity.Web.Extensions": {
+        "System.Boolean Microsoft.Identity.Web.Extensions::ContainsAny(System.String,System.String[])": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 38,
+              "EndOffset": 8,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 22,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/HttpContextExtensions.cs": {
+      "Microsoft.Identity.Web.HttpContextExtensions": {
+        "System.Void Microsoft.Identity.Web.HttpContextExtensions::StoreTokenUsedToCallWebAPI(Microsoft.AspNetCore.Http.HttpContext,System.IdentityModel.Tokens.Jwt.JwtSecurityToken)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.IdentityModel.Tokens.Jwt.JwtSecurityToken Microsoft.Identity.Web.HttpContextExtensions::GetTokenUsedToCallWebAPI(Microsoft.AspNetCore.Http.HttpContext)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/ServiceCollectionExtensions.cs": {
+      "Microsoft.Identity.Web.ServiceCollectionExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.ServiceCollectionExtensions::AddTokenAcquisition(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenAcquisition.cs": {
+      "Microsoft.Identity.Web.TokenAcquisition": {
+        "Microsoft.AspNetCore.Http.HttpContext Microsoft.Identity.Web.TokenAcquisition::get_CurrentHttpContext()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Identity.Client.IConfidentialClientApplication Microsoft.Identity.Web.TokenAcquisition::GetOrBuildConfidentialClientApplication()": {
+          "Lines": {
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0
+          },
+          "Branches": [
+            {
+              "Line": 244,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 244,
+              "Offset": 12,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Identity.Client.IConfidentialClientApplication Microsoft.Identity.Web.TokenAcquisition::BuildConfidentialClientApplication()": {
+          "Lines": {
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "267": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "276": 0,
+            "277": 0,
+            "279": 0,
+            "280": 0
+          },
+          "Branches": [
+            {
+              "Line": 261,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 261,
+              "Offset": 52,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 276,
+              "Offset": 149,
+              "EndOffset": 151,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 276,
+              "Offset": 149,
+              "EndOffset": 154,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 277,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 277,
+              "Offset": 174,
+              "EndOffset": 179,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Microsoft.Identity.Web.TokenAcquisition::ReplyForbiddenWithWwwAuthenticateHeader(System.Collections.Generic.IEnumerable`1<System.String>,Microsoft.Identity.Client.MsalUiRequiredException)": {
+          "Lines": {
+            "368": 0,
+            "370": 0,
+            "371": 0,
+            "372": 0,
+            "373": 0,
+            "374": 0,
+            "375": 0,
+            "377": 0,
+            "379": 0,
+            "380": 0,
+            "381": 0,
+            "383": 0,
+            "384": 0,
+            "385": 0,
+            "386": 0,
+            "387": 0,
+            "388": 0,
+            "389": 0,
+            "391": 0,
+            "392": 0,
+            "393": 0,
+            "395": 0,
+            "396": 0,
+            "397": 0,
+            "398": 0,
+            "399": 0,
+            "400": 0,
+            "401": 0,
+            "402": 0,
+            "403": 0
+          },
+          "Branches": [
+            {
+              "Line": 371,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 373,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 373,
+              "Offset": 40,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 371,
+              "Offset": 27,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 391,
+              "Offset": 228,
+              "EndOffset": 230,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 391,
+              "Offset": 228,
+              "EndOffset": 253,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 398,
+              "Offset": 342,
+              "EndOffset": 344,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 398,
+              "Offset": 342,
+              "EndOffset": 359,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Microsoft.Identity.Web.TokenAcquisition::AcceptedTokenVersionMismatch(Microsoft.Identity.Client.MsalUiRequiredException)": {
+          "Lines": {
+            "406": 0,
+            "411": 0,
+            "412": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.TokenAcquisition::.ctor(Microsoft.Identity.Web.TokenCacheProviders.IMsalTokenCacheProvider,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Options.IOptions`1<Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOptions>,Microsoft.Extensions.Options.IOptions`1<Microsoft.Identity.Client.ConfidentialClientApplicationOptions>)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenAcquisition/<AddAccountToCacheFromAuthorizationCodeAsync>d__9": {
+        "System.Void Microsoft.Identity.Web.TokenAcquisition/<AddAccountToCacheFromAuthorizationCodeAsync>d__9::MoveNext()": {
+          "Lines": {
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "111": 0,
+            "115": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0
+          },
+          "Branches": [
+            {
+              "Line": 100,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 51,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 67,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 120,
+              "EndOffset": 122,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 120,
+              "EndOffset": 172,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 67,
+              "EndOffset": 310,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.TokenAcquisition/<GetAccessTokenOnBehalfOfUserAsync>d__10": {
+        "System.Void Microsoft.Identity.Web.TokenAcquisition/<GetAccessTokenOnBehalfOfUserAsync>d__10::MoveNext()": {
+          "Lines": {
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "171": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "184": 0,
+            "187": 0,
+            "188": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "208": 0,
+            "209": 0
+          },
+          "Branches": [
+            {
+              "Line": 164,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 165,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 165,
+              "Offset": 37,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 171,
+              "Offset": 77,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 171,
+              "Offset": 77,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 179,
+              "Offset": 287,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 187,
+              "Offset": 347,
+              "EndOffset": 352,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 190,
+              "Offset": 365,
+              "EndOffset": 367,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 190,
+              "Offset": 365,
+              "EndOffset": 385,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 14,
+              "EndOffset": 517,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 187,
+              "Offset": 347,
+              "EndOffset": 612,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 204,
+              "Offset": 628,
+              "EndOffset": 630,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 204,
+              "Offset": 628,
+              "EndOffset": 637,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 179,
+              "Offset": 287,
+              "EndOffset": 668,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.TokenAcquisition/<>c__DisplayClass11_0": {
+        "System.Boolean Microsoft.Identity.Web.TokenAcquisition/<>c__DisplayClass11_0::<RemoveAccountAsync>b__0(Microsoft.Identity.Client.IAccount)": {
+          "Lines": {
+            "227": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenAcquisition/<RemoveAccountAsync>d__11": {
+        "System.Void Microsoft.Identity.Web.TokenAcquisition/<RemoveAccountAsync>d__11::MoveNext()": {
+          "Lines": {
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "228": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0
+          },
+          "Branches": [
+            {
+              "Line": 224,
+              "Offset": 266,
+              "EndOffset": 271,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 224,
+              "Offset": 266,
+              "EndOffset": 452,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 230,
+              "Offset": 465,
+              "EndOffset": 470,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 233,
+              "Offset": 600,
+              "EndOffset": 602,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 233,
+              "Offset": 600,
+              "EndOffset": 605,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 230,
+              "Offset": 465,
+              "EndOffset": 618,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.TokenAcquisition/<GetAccessTokenOnBehalfOfUserFromCacheAsync>d__14": {
+        "System.Void Microsoft.Identity.Web.TokenAcquisition/<GetAccessTokenOnBehalfOfUserFromCacheAsync>d__14::MoveNext()": {
+          "Lines": {
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenAcquisition/<>c__DisplayClass15_0": {
+        "System.Boolean Microsoft.Identity.Web.TokenAcquisition/<>c__DisplayClass15_0::<GetAccessTokenOnBehalfOfUserFromCacheAsync>b__0(Microsoft.Identity.Client.IAccount)": {
+          "Lines": {
+            "336": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenAcquisition/<GetAccessTokenOnBehalfOfUserFromCacheAsync>d__15": {
+        "System.Void Microsoft.Identity.Web.TokenAcquisition/<GetAccessTokenOnBehalfOfUserFromCacheAsync>d__15::MoveNext()": {
+          "Lines": {
+            "316": 0,
+            "317": 0,
+            "318": 0,
+            "319": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "328": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "337": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "345": 0,
+            "346": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "354": 0,
+            "355": 0,
+            "357": 0,
+            "358": 0
+          },
+          "Branches": [
+            {
+              "Line": 317,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 317,
+              "Offset": 91,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 322,
+              "Offset": 116,
+              "EndOffset": 118,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 322,
+              "Offset": 116,
+              "EndOffset": 130,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 331,
+              "Offset": 288,
+              "EndOffset": 293,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 333,
+              "Offset": 312,
+              "EndOffset": 314,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 333,
+              "Offset": 312,
+              "EndOffset": 325,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 331,
+              "Offset": 288,
+              "EndOffset": 506,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 340,
+              "Offset": 521,
+              "EndOffset": 526,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 340,
+              "Offset": 521,
+              "EndOffset": 705,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/WebApiServiceCollectionExtensions.cs": {
+      "Microsoft.Identity.Web.WebApiServiceCollectionExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.WebApiServiceCollectionExtensions::AddProtectedWebApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Security.Cryptography.X509Certificates.X509Certificate2,System.String,System.Boolean)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0
+          },
+          "Branches": [
+            {
+              "Line": 66,
+              "Offset": 115,
+              "EndOffset": 117,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 115,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 166,
+              "EndOffset": 168,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 166,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 205,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.WebApiServiceCollectionExtensions::AddProtectedApiCallsWebApis(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)": {
+          "Lines": {
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0,
+            "125": 0
+          },
+          "Branches": [
+            {
+              "Line": 114,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 66,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.WebApiServiceCollectionExtensions/<>c/<<AddProtectedWebApi>b__0_3>d": {
+        "System.Void Microsoft.Identity.Web.WebApiServiceCollectionExtensions/<>c/<<AddProtectedWebApi>b__0_3>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 76,
+              "Offset": 8,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 40,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 94,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 94,
+              "EndOffset": 119,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 124,
+              "EndOffset": 126,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 148,
+              "EndOffset": 150,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 148,
+              "EndOffset": 173,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 70,
+              "EndOffset": 183,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 124,
+              "EndOffset": 183,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 186,
+              "EndOffset": 188,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 186,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 219,
+              "EndOffset": 221,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 8,
+              "EndOffset": 257,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 219,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.WebApiServiceCollectionExtensions/<>c/<<AddProtectedApiCallsWebApis>b__1_2>d": {
+        "System.Void Microsoft.Identity.Web.WebApiServiceCollectionExtensions/<>c/<<AddProtectedApiCallsWebApis>b__1_2>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 117,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 117,
+              "Offset": 8,
+              "EndOffset": 126,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 88,
+              "EndOffset": 154,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/WebAppServiceCollectionExtensions.cs": {
+      "Microsoft.Identity.Web.WebAppServiceCollectionExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.WebAppServiceCollectionExtensions::AddMicrosoftIdentityPlatformAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.Boolean)": {
+          "Lines": {
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0
+          },
+          "Branches": [
+            {
+              "Line": 72,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 87,
+              "EndOffset": 112,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 98,
+              "Offset": 126,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 98,
+              "Offset": 126,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 29,
+              "EndOffset": 118,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 141,
+              "EndOffset": 143,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 141,
+              "EndOffset": 183,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.WebAppServiceCollectionExtensions::AddMsal(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.Collections.Generic.IEnumerable`1<System.String>,System.String)": {
+          "Lines": {
+            "115": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0
+          },
+          "Branches": [
+            {
+              "Line": 130,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 143,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 114,
+              "EndOffset": 116,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 114,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 132,
+              "Offset": 143,
+              "EndOffset": 145,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 64,
+              "EndOffset": 159,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 152,
+              "Offset": 227,
+              "EndOffset": 229,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 152,
+              "Offset": 227,
+              "EndOffset": 252,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.WebAppServiceCollectionExtensions/<>c/<<AddMsal>b__1_3>d": {
+        "System.Void Microsoft.Identity.Web.WebAppServiceCollectionExtensions/<>c/<<AddMsal>b__1_3>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 153,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 156,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 8,
+              "EndOffset": 119,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 156,
+              "Offset": 81,
+              "EndOffset": 147,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.WebAppServiceCollectionExtensions/<>c__DisplayClass1_1/<<AddMsal>b__2>d": {
+        "System.Void Microsoft.Identity.Web.WebAppServiceCollectionExtensions/<>c__DisplayClass1_1/<<AddMsal>b__2>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 145,
+              "Offset": 8,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 147,
+              "Offset": 111,
+              "EndOffset": 113,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 8,
+              "EndOffset": 152,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 147,
+              "Offset": 111,
+              "EndOffset": 180,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 148,
+              "Offset": 233,
+              "EndOffset": 235,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 14,
+              "EndOffset": 272,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 148,
+              "Offset": 233,
+              "EndOffset": 301,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/MsalAbstractTokenCacheProvider.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider": {
+        "System.Threading.Tasks.Task Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider::InitializeAsync(Microsoft.Identity.Client.ITokenCache)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.String Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider::GetCacheKey(System.Boolean)": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "62": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 4,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 55,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider::OnBeforeWriteAsync(Microsoft.Identity.Client.TokenCacheNotificationArgs)": {
+          "Lines": {
+            "105": 0,
+            "106": 0,
+            "107": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider::.ctor(Microsoft.Extensions.Options.IOptions`1<Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOptions>,Microsoft.AspNetCore.Http.IHttpContextAccessor)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider/<OnAfterAccessAsync>d__5": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider/<OnAfterAccessAsync>d__5::MoveNext()": {
+          "Lines": {
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0
+          },
+          "Branches": [
+            {
+              "Line": 82,
+              "Offset": 31,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 81,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 81,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 31,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider/<OnBeforeAccessAsync>d__6": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider/<OnBeforeAccessAsync>d__6::MoveNext()": {
+          "Lines": {
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0
+          },
+          "Branches": [
+            {
+              "Line": 96,
+              "Offset": 62,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 96,
+              "Offset": 62,
+              "EndOffset": 241,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider/<ClearAsync>d__8": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider/<ClearAsync>d__8::MoveNext()": {
+          "Lines": {
+            "110": 0,
+            "112": 0,
+            "113": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/Session/MsalSessionTokenCacheProvider.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider": {
+        "Microsoft.AspNetCore.Http.HttpContext Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider::get_CurrentHttpContext()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider::.ctor(Microsoft.Extensions.Options.IOptions`1<Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOptions>,Microsoft.AspNetCore.Http.IHttpContextAccessor)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "103": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider::.cctor()": {
+          "Lines": {
+            "105": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider/<ReadCacheBytesAsync>d__3": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider/<ReadCacheBytesAsync>d__3::MoveNext()": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 195,
+              "EndOffset": 249,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 310,
+              "EndOffset": 312,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 310,
+              "EndOffset": 325,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider/<WriteCacheBytesAsync>d__4": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider/<WriteCacheBytesAsync>d__4::MoveNext()": {
+          "Lines": {
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 28,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 28,
+              "EndOffset": 211,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 252,
+              "EndOffset": 254,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 252,
+              "EndOffset": 267,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider/<RemoveKeyAsync>d__5": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Session.MsalSessionTokenCacheProvider/<RemoveKeyAsync>d__5::MoveNext()": {
+          "Lines": {
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0
+          },
+          "Branches": [
+            {
+              "Line": 85,
+              "Offset": 28,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 28,
+              "EndOffset": 205,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 246,
+              "EndOffset": 248,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 246,
+              "EndOffset": 261,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/Session/SessionTokenCacheProviderExtension.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.Session.SessionTokenCacheProviderExtension": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.TokenCacheProviders.Session.SessionTokenCacheProviderExtension::AddSessionTokenCaches(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "32": 0,
+            "34": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 8,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 55,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 45,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 97,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.TokenCacheProviders.Session.SessionTokenCacheProviderExtension::AddSessionAppTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.TokenCacheProviders.Session.SessionTokenCacheProviderExtension::AddSessionPerUserTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0
+          },
+          "Branches": [
+            {
+              "Line": 101,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 15,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/InMemory/InMemoryTokenCacheProviderExtension.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.InMemory.InMemoryTokenCacheProviderExtension": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.TokenCacheProviders.InMemory.InMemoryTokenCacheProviderExtension::AddInMemoryTokenCaches(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/InMemory/MsalMemoryTokenCacheOptions.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheOptions": {
+        "System.TimeSpan Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheOptions::get_SlidingExpiration()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheOptions::set_SlidingExpiration(System.TimeSpan)": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheOptions::.ctor()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/InMemory/MsalMemoryTokenCacheProvider.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheProvider": {
+        "System.Threading.Tasks.Task Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheProvider::RemoveKeyAsync(System.String)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Byte[]> Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheProvider::ReadCacheBytesAsync(System.String)": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheProvider::WriteCacheBytesAsync(System.String,System.Byte[])": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheProvider::.ctor(Microsoft.Extensions.Options.IOptions`1<Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOptions>,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.Extensions.Options.IOptions`1<Microsoft.Identity.Web.TokenCacheProviders.InMemory.MsalMemoryTokenCacheOptions>)": {
+          "Lines": {
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/Distributed/DistributedTokenCacheAdapterExtension.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.Distributed.DistributedTokenCacheAdapterExtension": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.TokenCacheProviders.Distributed.DistributedTokenCacheAdapterExtension::AddDistributedTokenCaches(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.TokenCacheProviders.Distributed.DistributedTokenCacheAdapterExtension::AddDistributedAppTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Microsoft.Identity.Web.TokenCacheProviders.Distributed.DistributedTokenCacheAdapterExtension::AddDistributedUserTokenCache(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/TokenCacheProviders/Distributed/MsalDistributedTokenCacheAdapter.cs": {
+      "Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter::.ctor(Microsoft.Extensions.Options.IOptions`1<Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOptions>,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Options.IOptions`1<Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions>)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter/<RemoveKeyAsync>d__3": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter/<RemoveKeyAsync>d__3::MoveNext()": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter/<ReadCacheBytesAsync>d__4": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter/<ReadCacheBytesAsync>d__4::MoveNext()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter/<WriteCacheBytesAsync>d__5": {
+        "System.Void Microsoft.Identity.Web.TokenCacheProviders.Distributed.MsalDistributedTokenCacheAdapter/<WriteCacheBytesAsync>d__5::MoveNext()": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Resource/AadIssuerValidator.cs": {
+      "Microsoft.Identity.Web.Resource.AadIssuerValidator": {
+        "Microsoft.Identity.Web.Resource.AadIssuerValidator Microsoft.Identity.Web.Resource.AadIssuerValidator::GetIssuerValidator(System.String)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "55": 0,
+            "57": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 37,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 121,
+              "EndOffset": 123,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 121,
+              "EndOffset": 139,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 175,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 13,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Microsoft.Identity.Web.Resource.AadIssuerValidator::Validate(System.String,Microsoft.IdentityModel.Tokens.SecurityToken,Microsoft.IdentityModel.Tokens.TokenValidationParameters)": {
+          "Lines": {
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0,
+            "120": 0,
+            "121": 0
+          },
+          "Branches": [
+            {
+              "Line": 97,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 28,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 47,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 77,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 103,
+              "EndOffset": 105,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 111,
+              "Offset": 158,
+              "EndOffset": 121,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 112,
+              "Offset": 144,
+              "EndOffset": 146,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 112,
+              "Offset": 144,
+              "EndOffset": 151,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 111,
+              "Offset": 158,
+              "EndOffset": 160,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 103,
+              "EndOffset": 175,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 193,
+              "EndOffset": 195,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 193,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Microsoft.Identity.Web.Resource.AadIssuerValidator::IsValidIssuer(System.String,System.String,System.String)": {
+          "Lines": {
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0,
+            "143": 0,
+            "145": 0,
+            "147": 0,
+            "148": 0
+          },
+          "Branches": [
+            {
+              "Line": 125,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 9,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 59,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 59,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 78,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 87,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Microsoft.Identity.Web.Resource.AadIssuerValidator::IsValidTidInLocalPath(System.String,System.Uri)": {
+          "Lines": {
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0
+          },
+          "Branches": [
+            {
+              "Line": 153,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 22,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Microsoft.Identity.Web.Resource.AadIssuerValidator::GetTenantIdFromToken(Microsoft.IdentityModel.Tokens.SecurityToken)": {
+          "Lines": {
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "176": 0,
+            "177": 0
+          },
+          "Branches": [
+            {
+              "Line": 162,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 39,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 162,
+              "Offset": 14,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 169,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 172,
+              "Offset": 92,
+              "EndOffset": 94,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 172,
+              "Offset": 92,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 169,
+              "Offset": 67,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Microsoft.Identity.Web.Resource.AadIssuerValidator::.ctor(System.Collections.Generic.IEnumerable`1<System.String>)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.Resource.AadIssuerValidator::.cctor()": {
+          "Lines": {
+            "25": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Resource/JwtBearerMiddlewareDiagnostics.cs": {
+      "Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics": {
+        "Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics::Subscribe(Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 7,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnMessageReceivedAsync>d__5": {
+        "System.Void Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnMessageReceivedAsync>d__5::MoveNext()": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnAuthenticationFailedAsync>d__6": {
+        "System.Void Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnAuthenticationFailedAsync>d__6::MoveNext()": {
+          "Lines": {
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnTokenValidatedAsync>d__7": {
+        "System.Void Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnTokenValidatedAsync>d__7::MoveNext()": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnChallengeAsync>d__8": {
+        "System.Void Microsoft.Identity.Web.Resource.JwtBearerMiddlewareDiagnostics/<OnChallengeAsync>d__8::MoveNext()": {
+          "Lines": {
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Resource/OpenIdConnectMiddlewareDiagnostics.cs": {
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics::Subscribe(Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectEvents)": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0
+          },
+          "Branches": []
+        },
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics::DisplayProtocolMessage(Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectMessage)": {
+          "Lines": {
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0
+          },
+          "Branches": [
+            {
+              "Line": 126,
+              "Offset": 75,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 39,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnRedirectToIdentityProviderAsync>d__11": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnRedirectToIdentityProviderAsync>d__11::MoveNext()": {
+          "Lines": {
+            "114": 0,
+            "115": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnMessageReceivedAsync>d__13": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnMessageReceivedAsync>d__13::MoveNext()": {
+          "Lines": {
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnAuthorizationCodeReceivedAsync>d__14": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnAuthorizationCodeReceivedAsync>d__14::MoveNext()": {
+          "Lines": {
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnTokenResponseReceivedAsync>d__15": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnTokenResponseReceivedAsync>d__15::MoveNext()": {
+          "Lines": {
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "158": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnTokenValidatedAsync>d__16": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnTokenValidatedAsync>d__16::MoveNext()": {
+          "Lines": {
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnUserInformationReceivedAsync>d__17": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnUserInformationReceivedAsync>d__17::MoveNext()": {
+          "Lines": {
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnAuthenticationFailedAsync>d__18": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnAuthenticationFailedAsync>d__18::MoveNext()": {
+          "Lines": {
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnRedirectToIdentityProviderForSignOutAsync>d__19": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnRedirectToIdentityProviderForSignOutAsync>d__19::MoveNext()": {
+          "Lines": {
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnRemoteSignOutAsync>d__20": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnRemoteSignOutAsync>d__20::MoveNext()": {
+          "Lines": {
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0
+          },
+          "Branches": []
+        }
+      },
+      "Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnSignedOutCallbackRedirectAsync>d__21": {
+        "System.Void Microsoft.Identity.Web.Resource.OpenIdConnectMiddlewareDiagnostics/<OnSignedOutCallbackRedirectAsync>d__21::MoveNext()": {
+          "Lines": {
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/Resource/ScopesRequiredHttpContextExtensions.cs": {
+      "Microsoft.Identity.Web.Resource.ScopesRequiredHttpContextExtensions": {
+        "System.Void Microsoft.Identity.Web.Resource.ScopesRequiredHttpContextExtensions::VerifyUserHasAnyAcceptedScope(Microsoft.AspNetCore.Http.HttpContext,System.String[])": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 22,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 34,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 52,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 87,
+              "EndOffset": 141,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/InstanceDiscovery/IssuerConfigurationRetriever.cs": {
+      "Microsoft.Identity.Web.InstanceDiscovery.IssuerConfigurationRetriever/<GetConfigurationAsync>d__0": {
+        "System.Void Microsoft.Identity.Web.InstanceDiscovery.IssuerConfigurationRetriever/<GetConfigurationAsync>d__0::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 31,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 60,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/InstanceDiscovery/IssuerMetadata.cs": {
+      "Microsoft.Identity.Web.InstanceDiscovery.IssuerMetadata": {
+        "System.String Microsoft.Identity.Web.InstanceDiscovery.IssuerMetadata::get_TenantDiscoveryEndpoint()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Microsoft.Identity.Web.InstanceDiscovery.IssuerMetadata::get_ApiVersion()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Microsoft.Identity.Web.InstanceDiscovery.Metadata> Microsoft.Identity.Web.InstanceDiscovery.IssuerMetadata::get_Metadata()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/InstanceDiscovery/Metadata.cs": {
+      "Microsoft.Identity.Web.InstanceDiscovery.Metadata": {
+        "System.String Microsoft.Identity.Web.InstanceDiscovery.Metadata::get_PreferredNetwork()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Microsoft.Identity.Web.InstanceDiscovery.Metadata::get_PreferredCache()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> Microsoft.Identity.Web.InstanceDiscovery.Metadata::get_Aliases()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
