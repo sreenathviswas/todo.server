@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
 namespace ToDo.Api.Persistence
 {
+    [ExcludeFromCodeCoverage]
     public class ToDo : Entity
     {
         public string Content { get; set; }

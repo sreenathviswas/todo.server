@@ -18,6 +18,8 @@ namespace ToDo.Api.Tests
         protected Mock<IRepository<Persistence.ToDo>> _mockRepository;
         protected ToDoController _sut;
         protected ToDoController _sutWithInMemory;
+        protected ToDoDbContext _dbContext;
+        protected IRepository<Persistence.ToDo> _repository;
 
         [TestInitialize]
         public void Setup()
@@ -28,8 +30,8 @@ namespace ToDo.Api.Tests
             var builder = new DbContextOptionsBuilder<ToDoDbContext>();
             builder.UseInMemoryDatabase("ToDoDb");
             options = builder.Options;
-            ToDoDbContext dbContext = new ToDoDbContext(options);
-            IRepository<Persistence.ToDo> repository = new Repository<Persistence.ToDo>(dbContext);
+            _dbContext = new ToDoDbContext(options);
+            _repository = new Repository<Persistence.ToDo>(_dbContext);
 
             _sut = new ToDoController(_mockRepository.Object);
             _sut.ControllerContext = new Microsoft.AspNetCore.Mvc.ControllerContext
@@ -44,7 +46,7 @@ namespace ToDo.Api.Tests
                 }
             };
 
-            _sutWithInMemory = new ToDoController(repository);
+            _sutWithInMemory = new ToDoController(_repository);
             _sutWithInMemory.ControllerContext = new Microsoft.AspNetCore.Mvc.ControllerContext
             {
                 HttpContext = new DefaultHttpContext
@@ -121,6 +123,7 @@ namespace ToDo.Api.Tests
                 Content = "Updated Content"
             };
 
+            await _sutWithInMemory.Post(new Persistence.ToDo());
 
             var result = await _sutWithInMemory.Put(1, todo);
             result.Content.Should().Be("Updated Content");
@@ -192,6 +195,23 @@ namespace ToDo.Api.Tests
                 Content = "ToDo 1"
             };
 
+            await _dbContext.Database.EnsureDeletedAsync();
+            await _dbContext.Database.EnsureCreatedAsync();
+
+            _repository = new Repository<Persistence.ToDo>(_dbContext);
+            _sutWithInMemory = new ToDoController(_repository);
+            _sutWithInMemory.ControllerContext = new Microsoft.AspNetCore.Mvc.ControllerContext
+            {
+                HttpContext = new DefaultHttpContext
+                {
+                    User = new ClaimsPrincipal(new ClaimsIdentity(new[]
+                    {
+                        new Claim(ClaimTypes.Name, "Test User"),
+                        new Claim(ClaimTypes.NameIdentifier, "Test.User@test.com")
+                    }))
+                }
+            };
+
             await _sutWithInMemory.Post(todo);
 
             var result = await _sutWithInMemory.Get(100);
@@ -213,9 +233,31 @@ namespace ToDo.Api.Tests
         [TestMethod]
         public async Task delete_removes_corresponding_todo_from_inmemory_repository()
         {
-            var todo = new Persistence.ToDo();
+            var todo = new Persistence.ToDo
+            {
+                Id = 100
+            };
 
-            await _sutWithInMemory.Delete(1);
+            await _dbContext.Database.EnsureDeletedAsync();
+            await _dbContext.Database.EnsureCreatedAsync();
+
+            _repository = new Repository<Persistence.ToDo>(_dbContext);
+            _sutWithInMemory = new ToDoController(_repository);
+            _sutWithInMemory.ControllerContext = new Microsoft.AspNetCore.Mvc.ControllerContext
+            {
+                HttpContext = new DefaultHttpContext
+                {
+                    User = new ClaimsPrincipal(new ClaimsIdentity(new[]
+                    {
+                        new Claim(ClaimTypes.Name, "Test User"),
+                        new Claim(ClaimTypes.NameIdentifier, "Test.User@test.com")
+                    }))
+                }
+            };
+
+            await _sutWithInMemory.Post(todo);
+
+            await _sutWithInMemory.Delete(100);
         }
     }
 }

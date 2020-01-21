@@ -1,23 +1,49 @@
 ﻿<Properties StartupConfiguration="{5E4312B0-1036-4E1C-B21B-94A8A08AB44E}|Default">
   <MonoDevelop.Ide.ItemProperties.ToDo.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.ToDo.Api.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api.Tests/TestToDoController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.Api.Persistence/Configurations/TodoConfiguration.cs">
     <Files>
       <File FileName="ToDo.Api/appsettings.json" Line="8" Column="144" />
       <File FileName="ToDo.Api/Startup.cs" />
       <File FileName="ToDo.Api/Extensions/AadIssuerValidator.cs" />
-      <File FileName="ToDo.Api/Controllers/ToDoController.cs" />
+      <File FileName="ToDo.Api/Controllers/ToDoController.cs" Line="44" Column="1" />
       <File FileName="Microsoft.Identity.Web.Test/AadIssuerValidatorTests.cs" />
-      <File FileName="ToDo.Api.Tests/TestToDoController.cs" Line="1" Column="1" />
+      <File FileName="ToDo.Api.Tests/TestToDoController.cs" Line="256" Column="15" />
+      <File FileName="ToDo.Api.Persistence/Entity.cs" Line="6" Column="30" />
+      <File FileName="ToDo.Api.Persistence/IEntity.cs" Line="4" Column="2" />
+      <File FileName="ToDo.Api.Persistence/IRepository.cs" Line="7" Column="2" />
+      <File FileName="ToDo.Api.Persistence/Repository.cs" Line="1" Column="1" />
+      <File FileName="ToDo.Api.Persistence/ToDo.cs" Line="6" Column="30" />
+      <File FileName="ToDo.Api.Persistence/ToDoDbContext.cs" Line="1" Column="1" />
+      <File FileName="ToDo.Api.Persistence/Configurations/TodoConfiguration.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ToDo.Api" expanded="True">
+          <Node name="ToDo.Api" expanded="True" selected="True">
             <Node name="Microsoft.Identity.Web.Test" expanded="True" />
-            <Node name="ToDo.Api" expanded="True" />
-            <Node name="ToDo.Api.Tests" expanded="True">
-              <Node name="TestToDoController.cs" selected="True" />
+            <Node name="ToDo.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+            </Node>
+            <Node name="ToDo.Api.Persistence" expanded="True">
+              <Node name="Configurations" expanded="True" />
+            </Node>
+            <Node name="ToDo.Api.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ToDo.Api" expanded="True">
+            <Node name="ToDo.Api.Tests" expanded="True" selected="True">
+              <Node name="ToDo" expanded="True">
+                <Node name="Api" expanded="True">
+                  <Node name="Tests" expanded="True">
+                    <Node name="TestToDoController" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -27,7 +53,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/sreenath/Projects/ireland/todo/todo.server/ToDo.Api.Tests/TestToDoController.cs" relfile="ToDo.Api.Tests/TestToDoController.cs" line="191" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
